@@ -29,7 +29,7 @@
 // console.log(arr3.concat(['a','b']));
 
         //4  
-        const arr4=['name','surname',10,'age','city', 'uni',80,20]
+        // const arr4=['name','surname',10,'age','city', 'uni',80,20]
         // arr4.forEach(function(item, index, array) {
         //     console.log(item);
 
@@ -43,7 +43,7 @@
         // })
 
         // 5 
-         const arr5=[4,5,6,'2',true, undefined, '55']
+        //  const arr5=[4,5,6,'2',true, undefined, '55']
           // const newArr=arr5.map((item) => (console.log(item)))
 
         //   const newArr=arr5.map((item) =>{
@@ -53,13 +53,13 @@
 
             
         //   })
-          const newArr1=arr5.map((item) => console.log(String(item)))
+          // const newArr1=arr5.map((item) => console.log(String(item)))
 
 
-          const newArr2=arr5.map((item) => console.log(Boolean(item)))
+          // const newArr2=arr5.map((item) => console.log(Boolean(item)))
 
 
-          const newArr3=arr5.map((item) => console.log(Number(item)))
+          // const newArr3=arr5.map((item) => console.log(Number(item)))
 
 
   
