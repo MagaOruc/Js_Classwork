@@ -1,0 +1,19 @@
+.section1 {
+  height: 95vh;
+  border: 2px, dashed, green;
+
+}
+
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #checked{
+    visibility: hidden;
+  }
+  .submit{
+    margin-top: 10px;
+  }
