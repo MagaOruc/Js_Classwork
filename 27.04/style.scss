@@ -5,10 +5,11 @@ form {
   justify-content: center;
   flex-direction: column;
   border: 2px dashed green;
+
+  #checked {
+    visibility: hidden;
+  }
+  #submit {
+    margin-top: 10px;
+  }
 }
-form #checked {
-  visibility: hidden;
-}
-form #submit {
-  margin-top: 10px;
-}/*# sourceMappingURL=style.css.map */

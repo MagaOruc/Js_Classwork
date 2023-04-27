@@ -37,31 +37,50 @@ passwordInput.addEventListener("blur", function () {
 });
 
 checkbox.addEventListener("click", function () {
-    this.style.accentColor="blue"
+  this.style.accentColor = "blue";
 
-  if(checkbox.checked){
-    checked.style.visibility="visible"
-  }else{
-    checked.style.visibility="hidden"
+  if (checkbox.checked) {
+    checked.style.visibility = "visible";
+  } else {
+    checked.style.visibility = "hidden";
   }
 });
 
+radio.forEach((item) => {
+  item.addEventListener("click", function () {
+    this.style.accentColor = "blue";
+    alert("Thanks");
+  });
+});
 
+submit.disabled = "true";
 
-radio.forEach((item)=>{
-    item.addEventListener("click",function(){
-        this.style.accentColor="blue"
-        alert("hello")
+checkbox.addEventListener("click", function () {
+  if (
+    nameInput.value &&
+    surnameInput.value &&
+    emailInput.value &&
+    checkbox.checked
+  ) {
+    submit.removeAttribute("disabled");
+  } else {
+    submit.disabled = "true";
+  }
+});
+nameInput.required = true;
+surnameInput.required = true;
+emailInput.required = true;
+// passwordInput.required = true;
 
-})
-})
-
-submit.disabled="true";
-
-checkbox.addEventListener("click",function(){
-    if(nameInput.value&& surnameInput.value&&emailInput.value){
-        submit.removeAttribute("disabled")
-    }else{
-        submit.disabled='true'
-    }
-})
+// submit.addEventListener("submit", function () {
+//   if (
+//     nameInput.value &&
+//     surnameInput.value &&
+//     emailInput.value &&
+//     checkbox.checked
+//   ) {
+//     submit.removeAttribute("disabled");
+//   } else {
+//     submit.disabled = "true";
+//   }
+// });
