@@ -710,8 +710,8 @@ let iddown = document.querySelector(".iddown");
 let nameup = document.querySelector(".nameup");
 let namedown = document.querySelector(".namedown");
 
-function CreateTable() {
-  data.forEach((element) => {
+function CreateTable(arr) {
+  arr.forEach((element) => {
     let trElement = document.createElement("tr");
     trElement.innerHTML = `
      <td>${element.id}</td>
@@ -724,14 +724,14 @@ function CreateTable() {
   });
 }
 CreateTable(data);
-/////////////////search
+/////////////////  search
 
 let search = document.querySelector("#search");
 
 search.addEventListener("input", function () {
   let choose = data.filter((item) => item.first_name.includes(search.value));
   console.log(choose);
-  tbody.innerHTML = "";
+//   tbody.innerHTML = "";
   CreateTable(choose);
 });
 
