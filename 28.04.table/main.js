@@ -724,14 +724,14 @@ function CreateTable(arr) {
   });
 }
 CreateTable(data);
-/////////////////  search
+/////////////////search
 
 let search = document.querySelector("#search");
 
 search.addEventListener("input", function () {
   let choose = data.filter((item) => item.first_name.includes(search.value));
-  console.log(choose);
-//   tbody.innerHTML = "";
+  tbody.innerHTML = "";
+  // console.log(choose);
   CreateTable(choose);
 });
 
