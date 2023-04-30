@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 td,
 th,
 tr {
@@ -16,22 +15,3 @@ table,
 .namedown {
   display: none;
 }
-=======
-td,
-th,
-tr {
-  border: 1px solid rgb(146, 140, 140);
-  padding: 8px 10px;
-  text-align: center;
-}
-table,
-#search {
-  width: 100%;
-  margin-top: 10px;
-}
-.idup,
-.nameup,
-.namedown {
-  display: none;
-}
->>>>>>> 429bc857323965bf2781957f455225ff0f9636d0
