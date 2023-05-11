@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>The Blog Website</h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog-page.html">New Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <form>
+        <h2>Add a New Blog</h2>
+        <label for="title">Blog Tittle:</label><br />
+        <input type="text" name="" id="title" /><br /><br />
+
+        <label for="body">Blog Body:</label><br />
+        <textarea name="" id="body" cols="53" rows="5"></textarea><br /><br />
+
+        <label for="cars">Blog author:</label><br />
+
+        <select name="authors" id="authors">
+          <option value="maga">Maga</option>
+          <option value="oruc">Oruc</option>
+          <option value="elxan">Elxan Elatli</option>
+          <option value="cingiz">Cingiz Abdullayev</option></select
+        ><br /><br />
+
+        <button type="submit" class="addBtn">Add Blog</button>
+      </form>
+    </div>
+    <script src="./blog-page.js"></script>
+  </body>
+</html>

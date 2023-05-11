@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.deleteBtn,
+.addBtn {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.boxes {
+  width: 50%;
+}
+.box {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: rgb(250, 248, 247);
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  color: rebeccapurple;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  margin: 0 20px;
+  color: black;
+}
+ul {
+  display: flex;
+}
+
+input {
+  width: 400px;
+}
+select {
+  width: 410px;
+}
