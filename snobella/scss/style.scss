@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aqua;
+  .menu {
+    display: none;
+  }
+  .searchdiv {
+    position: relative;
+
+    input {
+      height: 30px;
+      width: 400px;
+    }
+
+    i {
+      position: absolute;
+      right: 5%;
+    }
+  }
+  i {
+    margin: 0 10px;
+  }
+  
+  @media only screen and (max-width:991px) {
+
+        .searchdiv{
+            display: none;
+        }
+    
+
+
+  }
+}

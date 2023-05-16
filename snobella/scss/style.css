@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aqua;
+}
+.container .menu {
+  display: none;
+}
+.container .searchdiv {
+  position: relative;
+}
+.container .searchdiv input {
+  height: 30px;
+  width: 400px;
+}
+.container .searchdiv i {
+  position: absolute;
+  right: 5%;
+}
+.container i {
+  margin: 0 10px;
+}
+@media only screen and (max-width: 991px) {
+  .container .searchdiv {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
