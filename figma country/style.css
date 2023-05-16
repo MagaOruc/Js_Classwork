@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dark {
+  background-color: #111517;
+}
+
+.sec1 .container .nav {
+  background-color: white;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sec1 .container .nav .darkBtn {
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+  color: #111517;
+}
+.sec1 .container .searchdiv {
+  background-color: red;
+  position: relative;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sec1 .container .searchdiv .foricon .searchInput {
+  padding-left: 30px;
+}
+.sec1 .container .searchdiv .fa-magnifying-glass {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.sec1 .card {
+  width: 100%;
+  margin: 20px;
+}
+.sec1 .card .img {
+  position: relative;
+  height: 160px;
+  width: 100%;
+}
+.sec1 .card img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.sec1 .card .textdiv span {
+  width: 100%;
+  font-size: 24px;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
